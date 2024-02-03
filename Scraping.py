@@ -12,7 +12,7 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 
 
-Username = "214368912"
+Username = input("Enter Your Username: ")
 webdriver_path = r'C:\Users\Neria\Downloads\chromedriver_win32\chromedriver.exe'
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(executable_path=CM().install(), options=options)
